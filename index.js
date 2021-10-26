@@ -65,7 +65,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('Genius car mechanics well come')
+    res.send('Well come to Genius Car Mechanics')
 })
 app.listen(port, () => {
     console.log('Identity localhost : ', port)
